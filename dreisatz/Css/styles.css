@@ -1,0 +1,24 @@
+body{
+    background: rgb(170, 86, 111);
+}
+.wrapper{
+    width: 100%;
+    max-width: 1024px;
+    margin: auto;
+    margin-top: 40px;
+    border: 2px solid rgb(175, 36, 71);
+    padding: 20px;
+    display: flex;
+}
+.card{
+    border: 2px solid rgb(255, 255, 255);
+    padding: 20px;
+    margin: 20px;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+.background-image{
+    height: 150px;
+    background-size:cover;
+    background-position: 50% 50%;
+}
