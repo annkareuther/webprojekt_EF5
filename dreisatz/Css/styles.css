@@ -9,16 +9,40 @@ body{
     border: 2px solid rgb(175, 36, 71);
     padding: 20px;
     display: flex;
+    flex-direction: column;
 }
-.card{
-    border: 2px solid rgb(255, 255, 255);
-    padding: 20px;
+.titlebox{
+  /*  border: 2px solid rgb(255, 255, 255);*/
+  /*  padding: 20px; */
+    position: relative;
     margin: 20px;
     flex-grow: 1;
     flex-basis: 0;
+}¨
+.titlebox .point{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    background-color: rgb(29, 182, 187);
+    top: 90px;
+    left: 20px;
 }
 .background-image{
     height: 150px;
     background-size:cover;
     background-position: 50% 50%;
 }
+
+
+
+  @media screen and (min-width: 600px) {
+    .wrapper {
+            flex-direction: row;
+            flex-wrap: wrap;
+    }
+    .titlebox {
+        flex-basis: 200px;
+    }   
+  }
+  
