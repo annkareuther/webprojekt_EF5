@@ -1,31 +1,69 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <title>Webprojekt</title>
-    </head>
-    <body>
-        <h1>Website</h1>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">  
+  <link rel="stylesheet" href="styles.css">
+  
 
-        <p>Ein Webseitenprojekt <br>aus dem EF-Unterricht</p>
-        <div>
-            <ol>
-                <li>Item A</li>
-                <li>Item B</li>
-                <li>Item C</li>
-            </ol>
-        </div>
-        <div>
-            <div>Box  &auml;</div>
-            <div>Box 1</div>
-        </div>
-        <div>
-            <img src="https://images.unsplash.com/photo-1558349699-1e1c38c05eeb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80" width="600px" alt="Nela the boxer" />
-        </div>
-        <div>
-            <img src="https://www.youtube.com/embed/UzTP0KRUPWY" title="man drinking orange juice" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        <div>
-            <a href="https://kanti-glarus.ch"target="_blank">Link</a>
-        </div>
+  <meta charset="UTF-8">
+    <head >
+         <title>
+         Memory Ann-Kathrin Reuther
+        </title>
+    </head>
+      <!-- CSS only -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">  
+      <link rel="stylesheet" href="styles.css">
+      <meta charset="UTF-8">
+
+    <body>
+            <div class="container">
+            <!-- Content here -->
+            <h1>Memory</h1>
+
+            <table align="center">
+              <tr>
+                <td><br></td>
+              </tr>
+              <tr>
+                <td><div class="dropdown-float">
+                  <button class="buttons" class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    cards
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item js-cards" href="#" data-cards="18" > 18 cards</a></li>
+                    <li><a class="dropdown-item js-cards" href="#" data-cards="24" > 24 cards</a></li>
+                    <li><a class="dropdown-item js-cards" href="#" data-cards="36" > 36 card</a></li>
+                  </ul>
+                </div></td>
+                <td><div class="dropdown-float">
+                  <button class="buttons" class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    level
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item js-level" href="#" data-level="1"> Easy</a></li>
+                    <li><a class="dropdown-item js-level" href="#" data-level="2"> Hard</a></li>
+                  </ul>
+                </div></td>
+                <td><button class="buttons" id="game-starter">Start game!</button></td>
+                </tr>
+              </table>
+                
         
+            <div id="game" class="output" ></div>
+            <br>
+            <div class ="main-container1" id="main-container" ></div>
+               
+
+  
+
+  
+  
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+    
     </body>
-</html>
+    </html>

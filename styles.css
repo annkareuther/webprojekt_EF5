@@ -1,0 +1,85 @@
+body{
+    background-color:rgb(190, 176, 176);
+}
+.float{
+    float: left;
+}
+
+.output{
+    font-size: 40px;
+}
+
+.image{
+    height: 150px;
+    width: 150px; 
+    margin: 5px;
+    float: left;
+    object-fit: cover;
+    object-position: 0%;
+    border: 5px;
+    border-color: black;
+    
+}
+.square{ 
+    position: absolute;
+    height: 160px;
+    width: 160px; 
+    float:left;
+    background: #037CA9; 
+    z-index: 1;
+}
+.div{
+    border: solid 5px;
+    border: black;
+    outline-style: dashed ;
+    outline-color: black ;
+    
+}
+
+title{
+  text-align: center;
+
+}
+.buttons{
+    size: 80px;
+    height: 30px;
+    border:rgb(80, 44, 31) solid 2px;
+    color: rgb(129, 116, 92); 
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: 500;
+    align-content: center;
+}
+.mixer{
+    size: 80px;
+    height: 30px;
+    border:rgb(80, 44, 31) solid 2px;
+    color: rgb(129, 116, 92); 
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: 500;
+    align-content: center;
+}
+
+
+.container{
+    text-align: center;
+}
+.main-container1 {
+    padding:auto;
+    align-self: center;
+    margin:auto;
+    text-align: center;
+    align-items: right;
+    color: burlywood;
+}
+/*
+.output{
+    border: solid 5px;
+    border: black;
+    outline-style: dashed;
+    outline-color: black;
+}
+*/
